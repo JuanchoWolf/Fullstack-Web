@@ -25,9 +25,34 @@
 
 <!--Buttons & Actions-->
 <div class="container-fluid btn-group btn-group-lg my-4" role="group" aria-label="Large button group">
-  <button type="button" class="btn btn-outline-warning">Skills & Projects</button>
-  <button type="button" class="btn btn-outline-warning">About</button>
-  <button type="button" class="btn btn-outline-warning">Contact</button>
+  <a href="" type="button" class="btn btn-outline-warning"><i class="bi bi-kanban-fill"></i> Skills & Projects</a>
+  <a href="" type="button" class="btn btn-outline-warning"><i class="bi bi-file-earmark-person-fill"></i> About</a>
+
+  <a href="#offcanvasContact" class="btn btn-outline-warning" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasContact"><i class="bi bi-person-lines-fill"></i> Contact</a>
+
+  <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="offcanvasContact" aria-labelledby="offcanvasContactLabel">
+
+    <div class="offcanvas-header">
+      <h4 class="offcanvas-title" id="offcanvasContactLabel">Contact</h4>
+      <button type="button" class="btn-close bg-info" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+      <div class="mb-3">
+        <label for="formControlInputCorreo" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="formControlInputCorreo" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="formControlTitle" class="form-label">Title</label>
+        <input class="form-control" id="formControlTitle" rows="1" placeholder="Contact from FullstackWeb">
+      </div>
+      <div class="mb-3">
+        <label for="formControlText" class="form-label">Text</label>
+        <textarea class="form-control" id="formControlText" rows="6" placeholder="About..."></textarea>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <!--Bottom-->
