@@ -10,7 +10,8 @@
     <!--Description-->
     <div class="col-3 p-3">
 
-      Programming is fun, it is being able to do everything your mind imagines; but to make it a reality it is necessary to learn how to do it. That's why I made this site, for everyone who hasn't started yet at least know which path I took.
+      <!--Condition for select myPhrase or otherPhrase-->
+      {{getRandomInt(2) == 0 ? myText:phrase}}
 
     </div>
 
