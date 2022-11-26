@@ -28,28 +28,41 @@
   <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="offcanvasContact" aria-labelledby="offcanvasContactLabel">
 
     <div class="offcanvas-header">
-      <h4 class="offcanvas-title" id="offcanvasContactLabel">Contact</h4>
+      <h4 class="offcanvas-title pt-4" id="offcanvasContactLabel">Contact me if you want us to work together.</h4>
       <button type="button" class="btn-close bg-info" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
 
     <div class="offcanvas-body">
-      <div class="mb-3">
-        <label for="formControlInputCorreo" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="formControlInputCorreo" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="formControlTitle" class="form-label">Title</label>
-        <input class="form-control" id="formControlTitle" rows="1" placeholder="Contact from FullstackWeb">
-      </div>
-      <div class="mb-3">
-        <label for="formControlText" class="form-label">Text</label>
-        <textarea class="form-control" id="formControlText" rows="6" placeholder="About..."></textarea>
-      </div>
-      <div class="mb-3">
-        <button type="button" class="btn btn-outline-info" onclick=""><i class="bi bi-send-fill"></i> Send</button>
-      </div>
+
+      <a id="mail" class="bg-danger bg-gradient card text-center text-dark m-5 pt-2" style="width: 14rem; text-decoration: none;" href="mailto:estefano.chicco@gmail.com" target="_blank">
+        <div>
+          <h1><i class="bi bi-envelope-paper-fill"></i></h1>
+          <p><b>Mail me</b></p>
+        </div>
+      </a>
+
+      <a id="github" class="bg-secondary bg-gradient card text-center text-dark m-5 pt-2" style="width: 14rem; text-decoration: none;" href="https://github.com/JuanchoWolf" target="_blank">
+        <div>
+          <h1><i class="bi bi-github"></i></h1>
+          <p><b>See my Work</b></p>
+        </div>
+      </a>
+
+      <a id="instagram" class="bg-warning bg-gradient card text-center text-dark m-5 pt-2" style="width: 14rem; text-decoration: none;" href="https://www.instagram.com/estefano_chicco/" target="_blank">
+        <div>
+          <h1><i class="bi bi-instagram"></i></h1>
+          <p><b>Follow me</b></p>
+        </div>
+      </a>
+
+      <a id="linkedin" class="bg-primary bg-gradient card text-center text-dark m-5 pt-2" style="width: 14rem; text-decoration: none;" href="">
+        <div>
+          <h1><i class="bi bi-linkedin"></i></h1>
+          <p><b>Contact me</b></p>
+        </div>
+      </a>
 
     </div>
-  </div>
 
+  </div>
 </div>
